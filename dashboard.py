@@ -6,7 +6,7 @@ import seaborn as sns
 
 st.title("Dashboard Sederhana AQI")
 
-aqi_df = pd.read_csv("dataset_bersih.csv")
+aqi_df = pd.read_csv("Dataset_bersih.csv")
 
 col1, col2= st.columns(2)
 
